@@ -8,5 +8,3 @@ if nmap -p445 --script smb-vuln-ms17-010.nse $ip | grep "VULNERABLE"; then
 else
   echo "Host no es vulnerable a EternalBlue (MS17-010)"
 fi
-
-
