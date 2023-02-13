@@ -1,9 +1,0 @@
-use auxiliary/scanner/smb/smb_ms17_010
-
-// configurar hosts
-
-set RHOSTS "host"
-
-// ejecutar
-
-run
